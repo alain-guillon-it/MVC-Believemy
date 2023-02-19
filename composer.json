@@ -1,0 +1,16 @@
+{
+    "name": "zyrass/mvc",
+    "description": "Apprentissage du MVC avec Believemy",
+    "autoload": {
+        "psr-4": {
+            "Zyrass\\MVC\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alain Guillon",
+            "email": "a.guillon@it-students.fr"
+        }
+    ],
+    "require": {}
+}

@@ -1,7 +1,4 @@
-<?php
-    $title = "MVC | Accueil";
-    ob_start();
-?>
+<?php ob_start() ?>
 
 <!-- SECTION -->
 <section class="container">
@@ -23,4 +20,4 @@
 <?php
 
     $content = ob_get_clean();
-    require_once "./view/template/base.php";
+    require_once "view/template/base.php";
